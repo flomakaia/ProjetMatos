@@ -1,0 +1,20 @@
+The project use the 8.9.1 nodejs runtime version and the 5.5.1 npm version build in it.To install it you have to follow the steps bellow:
+
+1-Get the nodejs source code on the official nodejs web site
+
+wget https://nodejs.org/dist/v8.9.1/node-v8.9.1.tar.gz
+
+2-unzip the package
+
+tar -xvzf node-v8.9.1.tar.gz
+
+3-Necessary tools to build from source
+
+apt-get install build-essential build-dep
+
+4-Install the dependencies
+
+./configure && make && sudo make install
+
+
+Enjoy
